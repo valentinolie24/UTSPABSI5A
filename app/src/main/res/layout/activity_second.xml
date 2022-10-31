@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONFIRMASI PENDAFTARAN"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/tv_konfirmasi"/>
+
+    <TextView
+        android:id="@+id/tv_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Pendaftaran"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/tv_nama"/>
+
+    <TextView
+        android:id="@+id/tv_jalur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jalur Pendaftaran"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/tv_nomor"/>
+
+</RelativeLayout>
